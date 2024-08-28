@@ -1,2 +1,2 @@
-# primeiro-rep
+# APRENDENDO ESSA MERDA KKK
 Aprendendo a usar GIT e GITHUB
