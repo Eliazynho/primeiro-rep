@@ -1,2 +1,2 @@
 # primeiro-rep
-aprendendo a usar o git
+Aprendendo a usar GIT e GITHUB
