@@ -41,6 +41,7 @@ html {
     font-size: 4rem;
     font-family: "Bangers", system-ui;
     color: antiquewhite;
+    letter-spacing: 2px;
 }
 
 .subTitle {
@@ -51,6 +52,7 @@ html {
 }
 
 .alternatives {
+    margin-top: -15px;
     color: antiquewhite;
     font-size: 1.1rem;
     display: flex;
@@ -66,6 +68,7 @@ html {
     margin-bottom: 1rem;
     font-size: 50px;
     font-family: "Bangers", system-ui;
+    letter-spacing: 2px;
 }
 
 .btn {
