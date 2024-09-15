@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>QUIZ DA 90'S</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <h1 class="title">
+            QUIZ DA 90'S
+          </h1>
+          <p class="subTitle">
+            CONHECIMENTOS GERAIS DOS ANOS 90
+          </p>
+          <h1 id="timer" class="timer">0</h1>
+          <div id="questions">
+            <h4 id="question" name="question" class="text"></h4>
+            <form id="formulario" class="alternatives">
+              <!--O JS VAI BOTAR AS ALTERNATIVAS-->
+            </form>
+          </div>
+          <br>
+          <div id="gifMario">
+            <!--AQUI VAI O GIF DA VITORIA-->
+          </div>
+          <p id="resultado" class="textResult"></p>
+          <br />
+          <div class="btn">
+            <button class="btn-confirm" id="result" onclick="confirmQuestion()">
+              CONFIRMAR
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
