@@ -19,29 +19,35 @@ html {
     padding: 2rem; 
     border-style: solid;
     border-width: 0.5rem; 
-    border-color: rgb(255, 251, 0);
+    border-color: #f0df5a;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem rgba(0, 0, 0, 0.19);
     border-radius: 0.625rem;
     background-image: none;
-    background-color: rgb(255, 0, 0);
+    background-color: #b92526;
 }
 
 .text {
     color: antiquewhite;
     font-size: 1.4rem;
     margin-top: -2%;
+    font-family: "Nunito", sans-serif;
 }
 
+.title-div {
+    width: 100%;
+    margin-top: -8%;
+}
 .title {
-    font-size: 0.8rem;
+    font-size: 4rem;
+    font-family: "Bangers", system-ui;
     color: antiquewhite;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .subTitle {
     color: antiquewhite;
     font-size: 0.7rem;
-    margin-top: -12%;
+    margin-top: -17%;
+    font-family: "Nunito", sans-serif;
 }
 
 .alternatives {
@@ -49,12 +55,17 @@ html {
     font-size: 1.1rem;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
 }
 
 .timer {
     color: antiquewhite;
-    margin-top: 1rem; /* Ajuste para telas menores */
-    margin-bottom: 1rem; /* Ajuste para telas menores */
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+    font-size: 50px;
+    font-family: "Bangers", system-ui;
 }
 
 .btn {
@@ -68,10 +79,12 @@ html {
     height: 50px;
     margin-top: -15%;
     margin-bottom: 10%;
-    font-size: 20px;
-    background-color: yellow;
-    border-color: red;
-    color: red;
+    font-size: 40px;
+    background-color: #ec9837;
+    border-color: #b92526;
+    color: #b92526;
+    font-family: "Bangers", system-ui;
+
 }
 
 .textResult{
@@ -85,9 +98,6 @@ html {
         padding: 1rem;
         border-width: 0.25rem;
         margin-top: 20%;
-    }
-    .title {
-        font-size: 2rem;
     }
 
     .alternatives {
@@ -107,9 +117,5 @@ html {
     .alternatives {
         color: antiquewhite;
         justify-content: space-between;
-    }
-
-    .title {
-        font-size: 3rem;
     }
 }
