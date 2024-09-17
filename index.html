@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>QUIZ DA 90'S</title>
+  </head>
+  <body>
+    <div class="imgLogo">
+      <img src="assets/logo-horizontal.png" alt="logo" class="imgLogo-1">
+    </div>
+    <div class="container">
+      <header>
+        <div>
+          <div class="title-div">
+            <h1 class="title">
+              QUIZ DA 90'S
+            </h1>
+          </div>
+          <p class="subTitle">
+            CONHECIMENTOS GERAIS DOS ANOS 90
+          </p>
+          <h1 id="timer" class="timer">0</h1>
+          <div id="questions">
+            <h4 id="question" name="question" class="text"></h4>
+            <form id="formulario" class="alternatives">
+              <!--O JS VAI BOTAR AS ALTERNATIVAS-->
+            </form>
+          </div>
+          <br>
+          <div id="gifMario">
+            <!--AQUI VAI O GIF DA VITORIA-->
+          </div>
+          <a class="textResultTry" href="https://youtube.com">
+            <p id="resultado-errado"></p>
+          </a>
+          <a class="textResult" href="cupom/cupom.html">
+            <p id="resultado"></p>
+          </a>
+          <br/>
+          <div class="btn">
+            <button class="btn-confirm" id="result" onclick="confirmQuestion()">
+              CONFIRMAR
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <script src="main/main.js"></script>
+  </body>
+</html>
